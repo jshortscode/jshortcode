@@ -1,1 +1,7 @@
+import b
+import sqlite3
+import os
+sep = os.sep 
+# G = bge.logic
+from sqlite3 import Error
 
