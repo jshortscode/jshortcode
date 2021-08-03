@@ -1,0 +1,8 @@
+def createTable(self, tablename):
+        try:
+            self.cursor.execute("CREATE TABLE "+mytable+" "+tableId)
+        except sqlite3.OperationalError:
+            print ("Error: table already exist, cannot create table!")
+            
+            
+            
